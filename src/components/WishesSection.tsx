@@ -3,23 +3,23 @@ import { Sparkles, Heart, Star, Gift } from "lucide-react";
 const wishes = [
   {
     icon: Sparkles,
-    title: "सफलता की कामना",
-    message: "नया साल आपके जीवन में असीम सफलता और खुशियाँ लेकर आए।",
+    title: "Success & Prosperity",
+    message: "May the new year bring you endless success and happiness in everything you do.",
   },
   {
     icon: Heart,
-    title: "प्यार और स्नेह",
-    message: "आपका जीवन प्यार, स्नेह और खुशियों से भरपूर हो।",
+    title: "Love & Happiness",
+    message: "Wishing your life is filled with love, joy and wonderful moments.",
   },
   {
     icon: Star,
-    title: "नई उम्मीदें",
-    message: "2025 आपके सभी सपनों को साकार करने वाला वर्ष हो।",
+    title: "New Dreams",
+    message: "May 2026 be the year that all your dreams come true.",
   },
   {
     icon: Gift,
-    title: "शुभकामनाएं",
-    message: "नया साल आपके और आपके परिवार के लिए मंगलमय हो।",
+    title: "Best Wishes",
+    message: "Sending warm wishes to you and your family for a blessed new year.",
   },
 ];
 
@@ -30,13 +30,13 @@ const WishesSection = () => {
         <h2 
           className="text-3xl md:text-5xl font-playfair text-center mb-4 text-gradient-gold animate-fade-in-up"
         >
-          नववर्ष की शुभकामनाएं
+          New Year Wishes
         </h2>
         <p 
           className="text-center text-muted-foreground mb-16 text-lg animate-fade-in-up"
           style={{ animationDelay: "0.2s" }}
         >
-          आप सभी को 2025 की हार्दिक शुभकामनाएं
+          Wishing everyone a wonderful 2026
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

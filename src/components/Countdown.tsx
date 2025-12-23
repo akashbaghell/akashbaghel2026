@@ -17,7 +17,7 @@ const Countdown = () => {
 
   useEffect(() => {
     const calculateTimeLeft = () => {
-      const newYear = new Date("2025-01-01T00:00:00").getTime();
+      const newYear = new Date("2026-01-01T00:00:00").getTime();
       const now = new Date().getTime();
       const difference = newYear - now;
 
@@ -40,10 +40,10 @@ const Countdown = () => {
   }, []);
 
   const timeBlocks = [
-    { label: "दिन", value: timeLeft.days },
-    { label: "घंटे", value: timeLeft.hours },
-    { label: "मिनट", value: timeLeft.minutes },
-    { label: "सेकंड", value: timeLeft.seconds },
+    { label: "Days", value: timeLeft.days },
+    { label: "Hours", value: timeLeft.hours },
+    { label: "Minutes", value: timeLeft.minutes },
+    { label: "Seconds", value: timeLeft.seconds },
   ];
 
   return (
