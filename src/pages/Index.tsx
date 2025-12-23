@@ -1,12 +1,24 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import StarField from "@/components/StarField";
+import Fireworks from "@/components/Fireworks";
+import Hero from "@/components/Hero";
+import WishesSection from "@/components/WishesSection";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-gradient-midnight relative overflow-hidden">
+      {/* Background effects */}
+      <StarField />
+      <Fireworks />
+      
+      {/* Main content */}
+      <main className="relative z-10">
+        <Hero />
+        <div id="wishes">
+          <WishesSection />
+        </div>
+        <Footer />
+      </main>
     </div>
   );
 };
