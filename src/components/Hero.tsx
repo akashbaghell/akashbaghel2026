@@ -14,7 +14,7 @@ const Hero = () => {
         >
           <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
           <span className="text-sm text-muted-foreground tracking-wider uppercase">
-            Countdown to 2025
+            Countdown to 2026
           </span>
         </div>
 
@@ -28,19 +28,27 @@ const Hero = () => {
           <span className="text-foreground">New Year</span>
         </h1>
 
+        {/* Name */}
+        <p 
+          className="text-2xl md:text-3xl text-gradient-gold font-playfair mb-4 animate-fade-in-up"
+          style={{ animationDelay: "0.3s" }}
+        >
+          From Akash Baghel
+        </p>
+
         {/* Subheading */}
         <p 
           className="text-xl md:text-2xl text-muted-foreground mb-4 font-light animate-fade-in-up"
           style={{ animationDelay: "0.4s" }}
         >
-          नया साल 2025 की हार्दिक शुभकामनाएं
+          Wishing you a Happy New Year 2026
         </p>
         
         <p 
           className="text-lg text-muted-foreground/70 mb-12 max-w-2xl mx-auto animate-fade-in-up"
           style={{ animationDelay: "0.5s" }}
         >
-          आपका जीवन खुशियों, समृद्धि और सफलताओं से भरपूर हो
+          May your life be filled with joy, prosperity and success
         </p>
 
         {/* Countdown */}
@@ -57,7 +65,7 @@ const Hero = () => {
             href="#wishes"
             className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground rounded-full font-medium hover:scale-105 transition-all duration-300 glow-gold"
           >
-            <span>शुभकामनाएं देखें</span>
+            <span>View Wishes</span>
             <svg 
               className="w-5 h-5 animate-bounce" 
               fill="none" 
