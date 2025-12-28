@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import ShayariSection from "@/components/ShayariSection";
 import WishesSection from "@/components/WishesSection";
 import Footer from "@/components/Footer";
+import MusicPlayer from "@/components/MusicPlayer";
 
 const Index = () => {
   return (
@@ -11,6 +12,9 @@ const Index = () => {
       {/* Background effects */}
       <StarField />
       <Fireworks />
+      
+      {/* Music toggle */}
+      <MusicPlayer />
       
       {/* Main content */}
       <main className="relative z-10">
