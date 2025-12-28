@@ -8,6 +8,14 @@ import Footer from "@/components/Footer";
 const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-midnight relative overflow-hidden">
+      {/* Sticky Name Badge */}
+      <div className="fixed top-4 left-4 z-50">
+        <div className="bg-secondary/80 backdrop-blur-md border border-anime-purple/40 rounded-full px-4 py-2 shadow-anime">
+          <p className="text-sm font-medium text-gradient-anime">Akash Baghel</p>
+          <p className="text-xs text-muted-foreground">Software Developer</p>
+        </div>
+      </div>
+
       {/* Background effects */}
       <StarField />
       <Fireworks />
