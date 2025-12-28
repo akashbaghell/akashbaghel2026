@@ -6,9 +6,9 @@ const MusicPlayer = () => {
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
-    // Create audio element with festive celebration music
+    // Party music - upbeat celebration track
     audioRef.current = new Audio(
-      "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3"
+      "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
     );
     audioRef.current.loop = true;
     audioRef.current.volume = 0.3;
