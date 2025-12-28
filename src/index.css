@@ -46,14 +46,22 @@
     --sparkle: 45 100% 90%;
     --rose: 340 80% 60%;
     
+    /* Anime theme colors */
+    --anime-pink: 330 90% 65%;
+    --anime-purple: 280 80% 60%;
+    --anime-cyan: 185 90% 55%;
+    --anime-yellow: 50 100% 60%;
+    
     /* Gradients */
     --gradient-gold: linear-gradient(135deg, hsl(var(--gold)) 0%, hsl(var(--gold-light)) 50%, hsl(var(--gold)) 100%);
-    --gradient-midnight: linear-gradient(180deg, hsl(222 47% 8%) 0%, hsl(222 47% 4%) 100%);
+    --gradient-midnight: linear-gradient(180deg, hsl(240 50% 8%) 0%, hsl(260 50% 5%) 100%);
     --gradient-sparkle: radial-gradient(circle, hsl(var(--gold-light) / 0.3) 0%, transparent 70%);
+    --gradient-anime: linear-gradient(135deg, hsl(var(--anime-pink)) 0%, hsl(var(--anime-purple)) 50%, hsl(var(--anime-cyan)) 100%);
     
     /* Shadows */
     --shadow-gold: 0 0 40px hsl(var(--gold) / 0.4);
     --shadow-glow: 0 0 60px hsl(var(--gold) / 0.3), 0 0 120px hsl(var(--gold) / 0.2);
+    --shadow-anime: 0 0 30px hsl(var(--anime-pink) / 0.4), 0 0 60px hsl(var(--anime-purple) / 0.3);
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -116,6 +124,11 @@
     background-image: var(--gradient-gold);
   }
 
+  .text-gradient-anime {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-anime);
+  }
+
   .bg-gradient-midnight {
     background: var(--gradient-midnight);
   }
@@ -126,6 +139,10 @@
 
   .glow-strong {
     box-shadow: var(--shadow-glow);
+  }
+
+  .shadow-anime {
+    box-shadow: var(--shadow-anime);
   }
 
   .shimmer {

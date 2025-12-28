@@ -23,7 +23,7 @@ const Hero = () => {
           className="text-5xl md:text-7xl lg:text-8xl font-playfair font-bold mb-6 animate-fade-in-up"
           style={{ animationDelay: "0.2s" }}
         >
-          <span className="text-gradient-gold">Happy</span>
+          <span className="text-gradient-anime">✨ Happy ✨</span>
           <br />
           <span className="text-foreground">New Year</span>
         </h1>
@@ -62,10 +62,10 @@ const Hero = () => {
           style={{ animationDelay: "0.8s" }}
         >
           <a 
-            href="#wishes"
-            className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground rounded-full font-medium hover:scale-105 transition-all duration-300 glow-gold"
+            href="#shayari"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-anime-pink via-anime-purple to-anime-cyan text-foreground rounded-full font-medium hover:scale-105 transition-all duration-300 shadow-anime"
           >
-            <span>View Wishes</span>
+            <span>✦ View Shayari ✦</span>
             <svg 
               className="w-5 h-5 animate-bounce" 
               fill="none" 
