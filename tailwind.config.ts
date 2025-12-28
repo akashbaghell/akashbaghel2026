@@ -63,6 +63,12 @@ export default {
         },
         sparkle: "hsl(var(--sparkle))",
         rose: "hsl(var(--rose))",
+        anime: {
+          pink: "hsl(var(--anime-pink))",
+          purple: "hsl(var(--anime-purple))",
+          cyan: "hsl(var(--anime-cyan))",
+          yellow: "hsl(var(--anime-yellow))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",

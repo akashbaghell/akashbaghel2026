@@ -1,6 +1,7 @@
 import StarField from "@/components/StarField";
 import Fireworks from "@/components/Fireworks";
 import Hero from "@/components/Hero";
+import ShayariSection from "@/components/ShayariSection";
 import WishesSection from "@/components/WishesSection";
 import Footer from "@/components/Footer";
 
@@ -14,6 +15,9 @@ const Index = () => {
       {/* Main content */}
       <main className="relative z-10">
         <Hero />
+        <div id="shayari">
+          <ShayariSection />
+        </div>
         <div id="wishes">
           <WishesSection />
         </div>
