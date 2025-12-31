@@ -1,10 +1,10 @@
 import StarField from "@/components/StarField";
 import Fireworks from "@/components/Fireworks";
 import Hero from "@/components/Hero";
+import PersonalizedWish from "@/components/PersonalizedWish";
 import ShayariSection from "@/components/ShayariSection";
 import WishesSection from "@/components/WishesSection";
 import Footer from "@/components/Footer";
-
 const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-midnight relative overflow-hidden">
@@ -23,6 +23,7 @@ const Index = () => {
       {/* Main content */}
       <main className="relative z-10">
         <Hero />
+        <PersonalizedWish />
         <div id="shayari">
           <ShayariSection />
         </div>
