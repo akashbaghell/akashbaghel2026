@@ -36,7 +36,7 @@ const Index = () => {
       
       {/* Main content */}
       <main className="relative z-10">
-        <Hero />
+        <Hero senderName={senderName} />
         <PersonalizedWish />
         <div id="shayari">
           <ShayariSection />

@@ -1,6 +1,10 @@
 import Countdown from "./Countdown";
 
-const Hero = () => {
+interface HeroProps {
+  senderName?: string | null;
+}
+
+const Hero = ({ senderName }: HeroProps) => {
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center px-4 py-20">
       {/* Decorative elements */}
@@ -33,7 +37,7 @@ const Hero = () => {
           className="text-2xl md:text-3xl text-gradient-gold font-playfair mb-4 animate-fade-in-up"
           style={{ animationDelay: "0.3s" }}
         >
-          From Akash Baghel
+          {senderName ? `From ${senderName}` : "From Akash Baghel"}
         </p>
 
         {/* Subheading */}
